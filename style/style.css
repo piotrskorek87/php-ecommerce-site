@@ -1,0 +1,248 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5em; /*work on it*/
+}
+
+body,td,th {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #333;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #03f;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+a:active {
+	text-decoration: none;
+	color: #03f;
+}
+.button{
+	color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(223, 117, 20);
+    padding: 5px 10px;
+    border: none;
+}
+
+#mainWrapper {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/*****************************************PAGE HEADER************************************************/
+#pageHeader {
+	height: 100px;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	background-color: brown;
+/*	padding: 1px;*/
+/*	padding-left: 20px;*/
+	font-size: 16px;
+}
+#pageHeader a {
+	color: white;
+}
+#pageHeader a:hover {
+	color: grey;
+}
+
+#pageHeader > .nav {
+	float: right;
+}
+
+#pageHeader ul {
+	list-style-type: none;
+	margin-top: 10px;
+}
+#pageHeader ul li {
+	float: left;
+	padding: 2px;
+	margin: 10px;
+}
+#pageHeader > img{
+	height: 100px;
+}
+input[text]{
+	height: 30px;
+}
+.clearfix {
+	clear: both;
+}
+/*****************************************PAGE CONTENT************************************************/
+#pageContent {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+/*********************************************INDEX**************************************************/
+.productList {
+	margin-bottom: 25px;
+}
+.contentWrapper {
+	width: 100%;
+	margin: 20px auto;
+	height: 761px;
+}
+.col1 {
+	padding: 10px;
+	width: 24%;
+	height: 300px;
+	float: left;
+}
+.col2 {
+	width: 42.6%;
+	float: left;
+	border: 1px solid black;
+}
+.img {
+	width: 125px;
+	float: left;
+	border: 1px solid black;
+	height: 150px;
+}
+.description {
+	padding: 10px;
+	width: 417px;
+	float: left;
+	border: 1px solid black;
+	height: 130px;
+}
+.addNewInventoryItem {
+	padding: 20px;
+}
+/*****************************************CART PAGE************************************************/
+.cartOutputHeader {
+	width: 1200px;
+	margin: 0 auto;
+	float: left;
+	border: 1px solid black;
+	height: 85px;
+}
+
+.cartOutput {
+	width: 1200px;
+	margin: 0 auto;
+	float: left;
+	border-bottom:  1px solid black;
+	border-left:  1px solid black;
+	border-right:  1px solid black;
+	height: 110px;
+}
+.cartCol1a{
+	width: 15%; 
+	float: left;
+	border-right: 1px solid black;
+	padding: 5px;
+	padding-top: 30px;	
+	height: 75px;
+	text-align: center;	
+}
+.cartCol1 {
+	width: 15%; 
+	float: left;
+	border-right: 1px solid black;
+	padding: 5px;
+	height: 100px;
+	text-align: center;
+}
+
+.cartCol2 {
+	width: 41%; 
+	float: left;
+	border-right: 1px solid black;
+	padding: 5px;
+	padding-top: 30px;
+	height: 75px;
+	text-align: center;
+}
+
+.cartCol3 {
+	width: 10%; 
+	float: left;
+	border-right: 1px solid black;
+	padding: 5px;
+	padding-top: 30px;
+	height: 75px;
+	text-align: center;
+}
+
+.cartCol4 {
+	width: 10%; 
+	float: left;
+	border-right: 1px solid black;
+	padding: 5px;
+	padding-top: 30px;
+	height: 75px;
+	text-align: center;
+}
+
+.cartCol5 {
+	width: 10%;
+	float: left; 
+	border-right: 1px solid black;
+	padding: 5px;
+	padding-top: 30px;
+	height: 75px;
+	text-align: center;
+}
+
+.cartCol6 {
+	width: 5%; 
+	float: left;
+	padding: 5px;
+	padding-top: 30px;
+	padding-left: 25px;
+	height: 75px;
+	text-align: center;
+}
+.product_list {
+	width: 1132px;
+	margin: 0 auto;
+	height: 500px;
+}
+
+/*****************************************PRODUCT PAGE************************************************/
+.product_page_contentWrapper {
+	width: 1200px;
+	border: 1px solid black;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+
+}
+
+.product_page_img {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+.product_page_description {
+	width: 820px;
+	padding: 40px;
+	float: left;
+	
+}
+#pageFooter {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+}
